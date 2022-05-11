@@ -133,7 +133,7 @@ a:hover, a:active, a:focus {
 
 .section-title {
   margin: 0;
-  padding-bottom: 32px;
+  padding-bottom: 14px;
 }
 
 .parallax-section {
@@ -270,7 +270,7 @@ a:hover, a:active, a:focus {
 #about .about-thumb {
   background: #ffffff;
   border-radius: 5px;
-  padding: 42px 32px;
+  padding: 27px 32px;
 }
 
 /*---------------------------------------
