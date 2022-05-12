@@ -148,6 +148,10 @@ a:hover, a:active, a:focus {
   padding-bottom: 80px;
 }
 
+body #about {
+  padding-top: 170px;
+}
+
 
 /*---------------------------------------
   Pre loader section              
@@ -226,7 +230,7 @@ a:hover, a:active, a:focus {
 }
 
 .websiteDev {
-  padding-left: 39px;
+  padding-left: 62px;
 }
 
 .joeUlyatt .line {
@@ -476,7 +480,7 @@ footer .col-md-4 .support-cus p {
 }
 
 .websiteDev {
-  padding-left: 32px;
+  padding-left: 62px;
 }
 
 #about img {
@@ -510,7 +514,7 @@ footer .col-md-4 .support-cus p {
     padding-bottom: 12px;
   }
 
-  #work #extraPad2 {
+  #work .extraPad {
     margin-top: 20px;
     margin-bottom: 40px;
   }
