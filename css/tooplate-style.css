@@ -288,7 +288,7 @@ body #about {
 #steps .col-md-4 img {
   border-radius: 5px;
   margin-bottom: 28px;
-  /* height: 506px; */
+  height: 506px;
 }
 
 #steps .col-md-4 a {
@@ -418,6 +418,13 @@ footer .col-md-4 .support-cus p {
   line-height: 20px;
 }
 
+.support-cus h4 {
+  color: #d7b065;
+}
+
+.support-cus a:focus {
+  color: white;
+}
 
 
 /*---------------------------------------
@@ -428,7 +435,8 @@ footer .col-md-4 .support-cus p {
   position: relative;
   padding: 0;
   margin: 0;
-  text-align: center;
+  text-align: right;
+  padding-top: 45px;
 }
 
 .social-icon li {
