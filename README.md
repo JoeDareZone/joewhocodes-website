@@ -8,7 +8,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/joewhocodes/joewhocodes-website">
-    <img src="/images/logo.png" alt="Logo" height="80px" width="80px">
+    <img src="/images/logo.png" alt="Logo" height="300px" width="300px">
   </a>
 
 <h3 align="center">Joe Who Codes</h3>
