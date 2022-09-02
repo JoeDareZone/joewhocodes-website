@@ -21,6 +21,29 @@ html, body {
   height: 100%;
 }
 
+.download-my-resume {
+  background: #d7b065;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  font-size: 2rem;
+  padding: 8px;
+}
+
+.download-my-resume:hover {
+  background: #d7b065;
+  color: #3d3d3f;
+}
+
+.about-thumb a {
+  transition: all 0.4s ease-in-out;
+}
+
+.about-thumb a:hover {
+  background: #d7b065;
+  color: #ffffff;
+  transform: scale(1.1);
+}
 
 
 /*---------------------------------------
