@@ -26,6 +26,16 @@
 
      <!-- Main css -->
      <link rel="stylesheet" href="css/tooplate-style.css">
+     
+     <script src="https://www.google.com/recaptcha/api.js?render=6LfKswshAAAAAHW--0E87_8sfuM0pSPFMwW-DiZq"></script>
+     <script>
+         grecaptcha.ready(function() {
+             grecaptcha.execute('6LfKswshAAAAAHW--0E87_8sfuM0pSPFMwW-DiZq', {action: 'homepage'})
+             .then(function(token) {
+                 document.getElementById('captchaResponse').value = token;
+             });
+         });
+     </script>
 </head>
 
 <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
