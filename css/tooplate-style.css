@@ -249,7 +249,7 @@ body #about {
 }
 
 .joeUlyatt {
-  /* padding-left: 88px; */
+  padding-left: 88px;
 }
 
 .websiteDev {
@@ -297,7 +297,7 @@ body #about {
 #about .about-thumb {
   background: #ffffff;
   border-radius: 5px;
-  padding: 27px 32px;
+  padding: 20px 32px;
 }
 
 /*---------------------------------------
@@ -500,6 +500,14 @@ body .navbar-fixed-top .container-fluid .social-icon li a:hover {
   transform: scale(1.1);
 }
 
+.hey-im-joe {
+  margin-bottom: 5px;
+  margin-top: 5px
+}
+
+.a-full-stack {
+  margin-top: 0px;
+}
 /*---------------------------------------
   Mobile Responsive styles              
 -----------------------------------------*/
@@ -576,7 +584,7 @@ body .navbar-fixed-top .container-fluid .social-icon li a:hover {
   }
 
   #about .about-thumb {
-    padding: 22px 12px;
+    padding: 19px 12px;
     margin-top: 0px;
   }
 
