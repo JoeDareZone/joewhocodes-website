@@ -271,6 +271,12 @@
                          </div>
                          <div class="support-cus">
                               <h4 class="copyright">JoeWhoCodes © 2024</h4>
+                         <script>
+                              document.addEventListener('DOMContentLoaded', (event) => {
+                                   const year = new Date().getFullYear();
+                                   document.querySelector('.copyright').innerHTML = `JoeWhoCodes © ${year}`;
+                              });
+                         </script>
                          </div>
                     </div>
 
