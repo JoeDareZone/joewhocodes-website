@@ -31,8 +31,8 @@ html, body {
 }
 
 .download-my-resume:hover {
-  background: #95b8cb;
-  color: #3d3d3f;
+  background: #afd1e4;
+  color: #ffffff;
 }
 
 .about-thumb a {
@@ -300,6 +300,11 @@ body #about {
   padding: 20px 32px;
 }
 
+#about .profile-pic {
+  min-width:330px;
+  max-width:400px;
+}
+
 /*---------------------------------------
   Steps section              
 -----------------------------------------*/
@@ -334,6 +339,7 @@ body #about {
   padding: 42px 32px;
 }
 
+
 /*---------------------------------------
   Work section              
 -----------------------------------------*/
@@ -343,6 +349,9 @@ body #about {
 }
 
 #work .work-thumb {
+  display: flex; /* Enables flexbox layout */
+  justify-content: center; /* Horizontally centers the content */
+  align-items: center; /* Vertically centers the content */
   border-radius: 5px;
   margin-bottom: 15px;
   padding: 0;
@@ -366,6 +375,10 @@ body #about {
 
 #work h4 {
   text-align: center;
+}
+
+#work .mobile-images {
+  max-height: 620px;
 }
 
 /* #work .wow #extrapad {
